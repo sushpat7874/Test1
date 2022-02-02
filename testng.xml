@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test thread-count="10" name="JustTesting">
+  <parameter name="i" value="10"/>
+  <parameter name="j" value="5"/>
+  <parameter name="class" value="Sush"/>
+    <classes>
+      <class name="test.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
